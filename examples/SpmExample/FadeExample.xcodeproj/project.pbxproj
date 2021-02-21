@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2487F0425B2F14500A7E466 /* Promissum in Frameworks */ = {isa = PBXBuildFile; productRef = E2487F0325B2F14500A7E466 /* Promissum */; };
-		E2487F0625B2F14500A7E466 /* PromissumAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E2487F0525B2F14500A7E466 /* PromissumAlamofire */; };
-		E2487F0825B2F14500A7E466 /* PromissumUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = E2487F0725B2F14500A7E466 /* PromissumUIKit */; };
+		E25F107125E2EE2400D004D4 /* PromissumAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E25F107025E2EE2400D004D4 /* PromissumAlamofire */; };
+		E25F107625E2EEA900D004D4 /* Promissum in Frameworks */ = {isa = PBXBuildFile; productRef = E25F107525E2EEA900D004D4 /* Promissum */; };
+		E25F107825E2EEA900D004D4 /* PromissumUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = E25F107725E2EEA900D004D4 /* PromissumUIKit */; };
 		E2AF3BDD22AEA5A10094E740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF3BDC22AEA5A10094E740 /* AppDelegate.swift */; };
 		E2AF3BDF22AEA5A10094E740 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF3BDE22AEA5A10094E740 /* SceneDelegate.swift */; };
 		E2AF3BE122AEA5A10094E740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AF3BE022AEA5A10094E740 /* ViewController.swift */; };
@@ -34,9 +34,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2487F0825B2F14500A7E466 /* PromissumUIKit in Frameworks */,
-				E2487F0425B2F14500A7E466 /* Promissum in Frameworks */,
-				E2487F0625B2F14500A7E466 /* PromissumAlamofire in Frameworks */,
+				E25F107825E2EEA900D004D4 /* PromissumUIKit in Frameworks */,
+				E25F107625E2EEA900D004D4 /* Promissum in Frameworks */,
+				E25F107125E2EE2400D004D4 /* PromissumAlamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,9 +98,9 @@
 			);
 			name = FadeExample;
 			packageProductDependencies = (
-				E2487F0325B2F14500A7E466 /* Promissum */,
-				E2487F0525B2F14500A7E466 /* PromissumAlamofire */,
-				E2487F0725B2F14500A7E466 /* PromissumUIKit */,
+				E25F107025E2EE2400D004D4 /* PromissumAlamofire */,
+				E25F107525E2EEA900D004D4 /* Promissum */,
+				E25F107725E2EEA900D004D4 /* PromissumUIKit */,
 			);
 			productName = FadeExample;
 			productReference = E2AF3BD922AEA5A10094E740 /* FadeExample.app */;
@@ -130,7 +130,8 @@
 			);
 			mainGroup = E2AF3BD022AEA5A10094E740;
 			packageReferences = (
-				E2487EFF25B2F11400A7E466 /* XCRemoteSwiftPackageReference "Promissum" */,
+				E25F106F25E2EE2400D004D4 /* XCRemoteSwiftPackageReference "." */,
+				E25F107425E2EEA900D004D4 /* XCRemoteSwiftPackageReference "Promissum" */,
 			);
 			productRefGroup = E2AF3BDA22AEA5A10094E740 /* Products */;
 			projectDirPath = "";
@@ -363,7 +364,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E2487EFF25B2F11400A7E466 /* XCRemoteSwiftPackageReference "Promissum" */ = {
+		E25F106F25E2EE2400D004D4 /* XCRemoteSwiftPackageReference "." */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = ../..;
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		E25F107425E2EEA900D004D4 /* XCRemoteSwiftPackageReference "Promissum" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tomlokhorst/Promissum.git";
 			requirement = {
@@ -374,19 +383,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E2487F0325B2F14500A7E466 /* Promissum */ = {
+		E25F107025E2EE2400D004D4 /* PromissumAlamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E2487EFF25B2F11400A7E466 /* XCRemoteSwiftPackageReference "Promissum" */;
-			productName = Promissum;
-		};
-		E2487F0525B2F14500A7E466 /* PromissumAlamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E2487EFF25B2F11400A7E466 /* XCRemoteSwiftPackageReference "Promissum" */;
+			package = E25F106F25E2EE2400D004D4 /* XCRemoteSwiftPackageReference "." */;
 			productName = PromissumAlamofire;
 		};
-		E2487F0725B2F14500A7E466 /* PromissumUIKit */ = {
+		E25F107525E2EEA900D004D4 /* Promissum */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E2487EFF25B2F11400A7E466 /* XCRemoteSwiftPackageReference "Promissum" */;
+			package = E25F107425E2EEA900D004D4 /* XCRemoteSwiftPackageReference "Promissum" */;
+			productName = Promissum;
+		};
+		E25F107725E2EEA900D004D4 /* PromissumUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E25F107425E2EEA900D004D4 /* XCRemoteSwiftPackageReference "Promissum" */;
 			productName = PromissumUIKit;
 		};
 /* End XCSwiftPackageProductDependency section */

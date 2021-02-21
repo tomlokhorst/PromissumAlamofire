@@ -6,17 +6,26 @@
         "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
         "state": {
           "branch": null,
-          "revision": "becd9a729a37bdbef5bc39dc3c702b99f9e3d046",
-          "version": "5.2.2"
+          "revision": "eaf6e622dd41b07b251d8f01752eab31bc811493",
+          "version": "5.4.1"
         }
       },
       {
         "package": "Promissum",
         "repositoryURL": "https://github.com/tomlokhorst/Promissum.git",
         "state": {
-          "branch": null,
-          "revision": "143ec366cd4468446a7db4a56381767fcdbb383d",
-          "version": "5.0.1"
+          "branch": "6",
+          "revision": "a95b440fb48e46e282234e17190953dda42aa042",
+          "version": null
+        }
+      },
+      {
+        "package": "PromissumAlamofire",
+        "repositoryURL": "/Users/tom/Projects/PromissumAlamofire",
+        "state": {
+          "branch": "develop",
+          "revision": "5c7a28881a6a92c748f077ab5511d464a9bcfb4d",
+          "version": null
         }
       }
     ]
