@@ -27,4 +27,4 @@ Pods/
 # SPM
 .build
 .swiftpm
-Promissum.xcodeproj
+PromissumAlamofire.xcodeproj
