@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/tomlokhorst/Promissum.git",
         "state": {
           "branch": "6",
-          "revision": "a95b440fb48e46e282234e17190953dda42aa042",
+          "revision": "453bd72c6580cd0fd3e28708eab3619ef19e3539",
           "version": null
         }
       },
@@ -24,7 +24,7 @@
         "repositoryURL": "/Users/tom/Projects/PromissumAlamofire",
         "state": {
           "branch": "develop",
-          "revision": "5c7a28881a6a92c748f077ab5511d464a9bcfb4d",
+          "revision": "a81963bca3af0764ee914c5ddd09527c51993c22",
           "version": null
         }
       }
