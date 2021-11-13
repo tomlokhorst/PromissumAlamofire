@@ -10,7 +10,7 @@ let package = Package(
     .library(name: "PromissumAlamofire", targets: ["PromissumAlamofire"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/tomlokhorst/Promissum.git", from: "6.0.0"),
+    .package(url: "https://github.com/tomlokhorst/Promissum.git", from: "7.0.0"),
     .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.1.0"),
   ],
   targets: [
